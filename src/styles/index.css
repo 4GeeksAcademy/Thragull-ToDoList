@@ -21,9 +21,16 @@
 }
 li:hover .trash{
     opacity: 1;
-    width: 3vw;
+    width: 60px;
 }
 .text{
     margin-left: auto;
     font-size: larger;
+}
+
+@media (max-width: 991px){
+    .input-group-text{
+        width:0;
+        visibility: hidden;
+    }
 }

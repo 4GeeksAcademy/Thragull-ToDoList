@@ -1,5 +1,6 @@
 import React from "react";
 import List from "./List";
+import Header from "./Header";
 
 //include images into your bundle
 
@@ -7,6 +8,7 @@ import List from "./List";
 const Home = () => {
 	return (
 		<div className="text-center">
+			<Header />
 			<List />
 		</div>
 	);
